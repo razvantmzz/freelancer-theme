@@ -29,12 +29,18 @@ tech-talk:
   - Gym solution was developed using Flutter SDK for the mobile app and Django for backend. The application uses a few Google Cloud services such as Firebase to provide cloud storage and push notifications. </br> The design was created using Figma and is fully customizable, allowing a fast and easy rebranding. 
 sections:
   - title: Route topo section
-    media: /img/gym/topo_overall.gif
+    media: 
+      type: video
+      source: /img/gym/home.webm
     details: The topo covers Lead Routes, Boulder Problems and customised challenges. The user can group them after grade or location. Tapping on a route will navigate them to a route details screen, allowing them to see an image of the route, details about the setter and who has done it. Here they can mark a route based on their performance:&nbsp Flash, 2nd go and done. Marking a route as done will change the users global ranking points.
   - title: Gym ranking section
-    media: /img/gym/ranking.gif
+    media: 
+      type: image
+      source: /img/gym/ranking.gif
     details:  We offer a gym ranking covering all users. Here you can see the performance of every user filtered by category or gender. Also you can see the ranking for current month, past months or since the start. The ranking is computed based on the numbers of attempts each user made on each route, the first time. Sending a route the second time will not change the ranking.
   - title: Events section
-    media: /img/gym/event.gif
+    media: 
+      type: image
+      source: /img/gym/event.gif
     details: The events part of the application allow the admins to create events and competitions. A competition is created with a multitude of options<ul text-left><li>custom categories</li><li>custom grades points</li><li>custom competition stages preselections, semifinal, final</li><li>custom ranking algoritms for each competition stage</li><li>number of people who enter in the semifinal/final</li><li>support 2 modes teams of 2 or individual</li><li>ranking for each stage</li><li>full control of the state of the stages(the stages can be closed or open at anytime)</li></ul>
 ---

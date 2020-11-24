@@ -21,12 +21,17 @@ tech-talk:
   - The app was developed in Android Studio using Java. Offers a wide integration with Google Cloud Services such as:&nbsp Google Maps, Google Places, Firebase Authentication, Realtime Database, Storage and Functions.  
 sections:
   - title: Hike Details
-    media: /img/mahike/section1.png
+    media: 
+      type: image
+      source: /img/mahike/section1.png
     details: On the details screen we offer a gallery of images from the hike trail and destination. Different details such as difficulty, duration and availability helps the users decide if they want to go on this trail. For better orientation we provide the trails map.
   - title: Hike Map Details
-    media: /img/mahike/section2.png
+    media: 
+      type: image
     details: Every hiking trails has a detailed map with point of interest like Watersources, Cabins, Rescue Points, Shelters. The users can add personal bookmarks on a pins location.
   - title: Points of interests
-    media: /img/mahike/section3.png
+    media: 
+      type: image
+      source: /img/mahike/section3.png
     details: Points of interest can be of 4 types:&nbsp Watersources, Cabins, Rescue Points, Shelters. Each comes with details about localizations and access. Photos can be added to further help the user. 
 ---

@@ -4,7 +4,14 @@
       {% assign mod = forloop.index | modulo: 2 %}
       {% if mod == 1 %}
         <div class="col-md-4 vertical-center">
-          <img style=" float:left" src="{{ include.section.media }}" class="custom-app-gif"/>
+          {% if include.section.media.type == 'video' %}
+            <video class="custom-app-gif" autoplay muted>
+               <source src="{{ include.section.media.source }}" type="video/mp4">
+                 Your browser does not support the video tag.
+            </video> 
+          {% else %}
+            <img style=" float:left" src="{{ include.section.media.source }}" class="custom-app-gif"/>
+          {% endif %}
         </div>
       {% endif %}
       <div class="col-md-8 vertical-center">
@@ -15,7 +22,14 @@
         </div>
         {% if mod == 0 %}
           <div class="col-md-4 vertical-center">
-            <img style=" float:right" src="{{ include.section.media }}" class="custom-app-gif"/>
+            {% if include.section.media.type == 'video' %}
+              <video class="custom-app-gif" autoplay muted>
+                 <source src="{{ include.section.media.source }}" type="video/mp4">
+                   Your browser does not support the video tag.
+              </video> 
+            {% else %}
+              <img style=" float:left" src="{{ include.section.media.source }}" class="custom-app-gif"/>
+            {% endif %}
           </div>
         {% endif %}
       </div>
