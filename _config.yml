@@ -2,8 +2,9 @@
 title: RazvanTmz
 email: razvantmz@gmail.com
 url: https://razvantmzz.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "I am a mobile developer working in the field for over 3 years. Check out my portofolio and projects."
 keywords: "your keywords, separated by commas"
+
 skills: "Mobile Developer"
 meta_author: Razvan Tamazlicariu
 iis_slider_array: []
@@ -45,6 +46,8 @@ social:
     url: https://github.com/razvantmzz
   - title: instagram
     url: https://www.instagram.com/razvan.tmz/
+  - title: linkedin
+    url: https://www.linkedin.com/in/razvantmz/
 
 contacts:
   - type: Email
