@@ -1,19 +1,147 @@
-# example slider
+# playground
 - selector: playground
   captions: false
-  bullets: false
+  bullets: true
   images:
-    - src: /img/playground/add_event.png
+    - src: /img/playground/header.webp
       alt: add event
-    - src: /img/playground/add_route.png
+    - src: /img/playground/header2.webp
       alt: image two
-    - src: /img/playground/events.png
+    - src: /img/playground/header3.webp
       alt: image three
-    - src: /img/playground/home.png
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: playgroundMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/playground/add_route.webp
+      alt: image two
+    - src: /img/playground/events.webp
       alt: image three
-    - src: /img/playground/route_details.png
+    - src: /img/playground/home.webp
       alt: image three
-    - src: /img/playground/route_mark_as_sent.png
+    - src: /img/playground/route_details.webp
+      alt: image three
+    - src: /img/playground/route_mark_as_sent.webp
+      alt: image three
+    - src: /img/playground/add_event.webp
+      alt: image two
+    - src: /img/playground/event_details.webp
+      alt: image two
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+# mahike
+- selector: mahike
+  captions: false
+  bullets: true
+  images:
+    - src: /img/mahike/header-big.webp
+      alt: add event
+    - src: /img/mahike/header-big2.webp
+      alt: image two
+    - src: /img/mahike/header-big3.webp
+      alt: image three
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: mahikeMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/mahike/header1.webp
+      alt: image two
+    - src: /img/mahike/header2.webp
+      alt: image three
+    - src: /img/mahike/header3.webp
+      alt: image three
+    - src: /img/mahike/section1.webp
+      alt: image three
+    - src: /img/mahike/section2.webp
+      alt: image three
+    - src: /img/mahike/section3.webp
+      alt: image two
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+
+# mahike
+- selector: gymSolution
+  captions: false
+  bullets: true
+  images:
+    - src: /img/gym/header1.webp
+      alt: add event
+    - src: /img/gym/header2.webp
+      alt: add event
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: gymSolutionMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/gym/skai_details.webp
+      alt: image two
+    - src: /img/gym/skai_rank.webp
+      alt: image three
+    - src: /img/gym/skai_topo.webp
+      alt: image three
+    - src: /img/gym/home.webp
+      alt: image three
+    - src: /img/gym/mark_s_sent.webp
+      alt: image three
+    - src: /img/gym/route_details.webp
       alt: image three
   settings:
     height: 600
