@@ -21,10 +21,15 @@ languages:
   - English
   - German
 work:
+  - company-name: "WeVideo"
+  - position:
+      - name: Android Developer
+      - period: "Feb 2021 - Present"
+      - description: Responsible for implementing new features following the requirements and technologies. The technologies I used:&nbsp Kotlin, Java, Koin, Navigation Component, Room
   - company-name: "Deventure Software"
   - position:
       - name: Xamarin/Android Developer
-      - period: "Jan 2018 - Present"
+      - period: "Jan 2018 - Feb 2021"
       - description: Developed Mobile aplication in Xamarin and Native Android&iOS. The technologies I used:&nbsp C#, Swift, Java. I was involed in the whole process from start to release. My main tasks:&nbsp
       - tasks:
         - Developing and testing new features  for  Native iOS&Android/Xamarin iOS&Android
@@ -35,7 +40,7 @@ work:
         - Contribute on creating new applications from scratch
         - Maintaining contact with clients about feature implementations and releases
       - name: + Team Leader
-      - period: Mar 2019
+      - period: Mar 2019 - Feb 2021
       - description:
       - tasks:
         - Teaching and coordinating the interns, delegating tasks and creating timelines
